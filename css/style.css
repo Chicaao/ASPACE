@@ -45,6 +45,7 @@ header {
 .logo img {
     height: 60px;
     width: auto;
+    border: none;
 }
 
 .main-nav ul {
