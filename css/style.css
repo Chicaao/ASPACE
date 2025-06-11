@@ -11,7 +11,7 @@ a img {
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
-    background-color: var(--cor-branca);
+    background-color: var(--cor-fundo-site);
     color: #333;
 }
 
@@ -22,6 +22,7 @@ body {
     --cor-verde-secundario: #83b735;
     --cor-texto-escuro: #333333;
     --cor-branca: #ffffff;
+    --cor-fundo-site: #f5f9f5;
 }
 
 /* --- Estilos Temporários para Visualização --- */
