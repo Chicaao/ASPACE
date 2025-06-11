@@ -22,7 +22,7 @@ body {
     --cor-verde-secundario: #83b735;
     --cor-texto-escuro: #333333;
     --cor-branca: #ffffff;
-    --cor-fundo-site: #f3d0e9;
+    --cor-fundo-site: #f3f0e9;
 }
 
 /* --- Estilos Temporários para Visualização --- */
@@ -165,7 +165,7 @@ header {
     text-align: center;
     font-size: 2.5rem;
     color: var(--cor-texto-escuro);
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .pilares-container {
