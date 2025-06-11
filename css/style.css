@@ -151,6 +151,82 @@ header {
     transform: translateY(-3px) scale(1.04);
 }
 
+/* --- Seção de Pilares --- */
+.pilares-section {
+    padding: 5rem 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--cor-texto-escuro);
+    margin-bottom: 3rem;
+}
+
+.pilares-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.pilar-card {
+    background-color: var(--cor-branca);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 2.5rem 2rem;
+    text-align: center;
+    flex: 1;
+    min-width: 300px;
+    max-width: 450px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pilar-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.pilar-icon {
+    font-size: 3.5rem;
+    color: var(--cor-verde-principal);
+    margin-bottom: 1.5rem;
+}
+
+.pilar-card h3 {
+    font-size: 1.75rem;
+    color: var(--cor-texto-escuro);
+    margin-bottom: 1rem;
+}
+
+.pilar-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.button-secondary {
+    display: inline-block;
+    background-color: transparent;
+    color: var(--cor-verde-principal);
+    border: 2px solid var(--cor-verde-principal);
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-secondary:hover {
+    background-color: var(--cor-verde-principal);
+    color: var(--cor-branca);
+}
+
 @media (max-width: 768px) {
     /* 1. Esconde o menu de navegação principal */
     .main-nav {
