@@ -107,7 +107,7 @@ header {
     }
 
     /* 2. Regra que faz o menu aparecer quando o JS adicionar a classe 'active' */
-    .main-nac.active {
+    .main-nav.active {
         display: flex;
     }
 
