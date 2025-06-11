@@ -89,3 +89,50 @@ header {
     font-size: 2rem;
     cursor: pointer;
 }
+
+
+@media (max-width: 768px) {
+    /* 1. Esconde o menu de navegação principal */
+    .main-nav {
+        display: none;
+        /* Estilos para quando o menu for aberto via JS */
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: var(--cor-branca);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 1rem 0;
+    }
+
+    /* 2. Regra que faz o menu aparecer quando o JS adicionar a classe 'active' */
+    .main-nac.active {
+        display: flex;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-nav li {
+        width: 100%;
+    }
+
+    .main-nav a {
+        padding: 1rem;
+        display: block;
+        border-bottom: 1px solid #eee;
+    }
+
+    .main-nav a::after {
+        display: none;
+    }
+
+    .mobile-menu-button {
+        display: block;
+    }
+
+}
