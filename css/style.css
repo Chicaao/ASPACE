@@ -297,6 +297,12 @@ header {
     display: flex;
     flex-direction: column;
     position: relative;
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
 }
 
 .testimonial-card::before {
@@ -350,6 +356,26 @@ header {
 .author-info span {
     font-size: 0.9rem;
     color: #777;
+}
+
+/* --- Seção de CTA Final --- */
+
+.cta-final-section {
+    background-color: var(--cor-verde-principal);
+    color: var(--cor-branca);
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.cta-final-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-final-section p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
 }
 
 @media (max-width: 768px) {
