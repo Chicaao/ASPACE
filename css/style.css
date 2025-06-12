@@ -195,16 +195,22 @@ header {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
 
-.pilar-icon svg {
+.pilar-icon {
     font-size: 3.5rem;
     color: var(--cor-verde-principal);
     margin-bottom: 1.5rem;
 }
 
-.pilar-card h3 {
+.pilar-icon svg {
     height: 3.5rem;
     width: 3.5rem;
     fill: var(--cor-amarelo-mel);
+}
+
+.pilar-card h3 {
+    font-size: 1.75rem;
+    color: var(--cor-texto-escuro);
+    margin-bottom: 1rem;
 }
 
 .pilar-card p {
