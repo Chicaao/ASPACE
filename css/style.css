@@ -202,9 +202,9 @@ header {
 }
 
 .pilar-card h3 {
-    font-size: 1.75rem;
-    color: var(--cor-texto-escuro);
-    margin-bottom: 1rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    fill: var(--cor-amarelo-mel);
 }
 
 .pilar-card p {
@@ -229,6 +229,47 @@ header {
 .button-secondary:hover {
     background-color: var(--cor-verde-principal);
     color: var(--cor-branca);
+}
+
+.about-summary-section {
+    padding: 5rem 2rem;
+    background-color: var(--cor-branca);
+}
+
+.about-summary-content {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.about-image-column, .about-text-column {
+    flex: 1;
+    min-width: 320px;
+}
+
+.about-image-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.about-text-column .section-title {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.about-text-column .subtitle {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--cor-texto-escuro);
+    margin-bottom: 1.5rem;
+}
+
+.about-text-column p {
+    margin-bottom: 2rem;
+    line-height: 1.7;
 }
 
 @media (max-width: 768px) {
