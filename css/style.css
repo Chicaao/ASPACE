@@ -385,9 +385,32 @@ footer {
 }
 
 .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+}
+
+.footer-brand {
+    text-align: center;
+    max-width: 400px;
+}
+
+.footer-logo {
+    max-width: 150px;
+    margin-bottom: 1rem;
+}
+
+.footer-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 2rem;
+    gap: 2.5rem;
+    width: 100%;
+}
+
+.footer-column {
+    text-align: left;
 }
 
 .footer-column h4 {
@@ -408,12 +431,7 @@ footer {
     background-color: var(--cor-verde-secundario);
 }
 
-.footer-logo {
-    max-width: 150px;
-    margin-bottom: 1rem;
-}
-
-.footer-column {
+.footer-column p {
     line-height: 1.7;
     margin-bottom: 0.5rem;
 }
