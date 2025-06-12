@@ -361,10 +361,11 @@ header {
 /* --- Seção de CTA Final --- */
 
 .cta-final-section {
-    background-color: var(--cor-verde-principal);
-    color: var(--cor-branca);
+    background-color: var(--cor-branca);
+    color: var(--cor-texto-escuro);
     padding: 5rem 2rem;
     text-align: center;
+    border-top: 1px solid #e7e7e7;
 }
 
 .cta-final-section h2 {
@@ -376,6 +377,17 @@ header {
     font-size: 1.1rem;
     max-width: 600px;
     margin: 0 auto 2rem auto;
+    color: #555;
+}
+
+.cta-final-section .cta-button {
+    background-color: var(--cor-verde-principal);
+    color: var(--cor-branca);
+}
+
+.cta-final-section .cta-button:hover {
+    background-color: #2f6a37;
+    transform: translateY(-3px);
 }
 
 footer {
