@@ -195,7 +195,7 @@ header {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
 
-.pilar-icon {
+.pilar-icon svg {
     font-size: 3.5rem;
     color: var(--cor-verde-principal);
     margin-bottom: 1.5rem;
@@ -256,7 +256,7 @@ header {
 }
 
 .about-text-column .section-title {
-    text-align: left;
+    text-align: center;
     margin-bottom: 1.5rem;
 }
 
@@ -270,6 +270,80 @@ header {
 .about-text-column p {
     margin-bottom: 2rem;
     line-height: 1.7;
+}
+
+/* --- Seção de Depoimentos --- */
+.testimonials-section {
+    padding: 5rem 2rem;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.testimonial-card {
+    background-color: var(--cor-branca);
+    border-radius: 8px;
+    padding: 2.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.testimonial-card::before {
+    content: '\f10d';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    color: var(--cor-verde-secundario);
+    font-size: 2rem;
+    opacity: 0.5;
+}
+
+.testimonial-card blockquote {
+    flex-grow: 1;
+    margin-bottom: 2rem;
+}
+
+.testimonial-card blockquote p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    font-style: italic;
+    color: #555;
+    padding-top: 1rem;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-top: 1px solid #eee;
+    padding-top: 1.5rem;
+    margin-top: auto;
+}
+
+.author-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author-info cite {
+    font-weight: bold;
+    font-style: normal;
+    color: var(--cor-texto-escuro);
+    display: block;
+}
+
+.author-info span {
+    font-size: 0.9rem;
+    color: #777;
 }
 
 @media (max-width: 768px) {
