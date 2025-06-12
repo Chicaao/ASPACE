@@ -414,7 +414,7 @@ footer {
 
 .footer-column {
     text-align: left;
-    flex: 0 1 250px;
+    flex: 1;
 }
 
 .footer-column h4 {
