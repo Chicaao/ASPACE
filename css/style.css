@@ -378,7 +378,7 @@ header {
     margin: 0 auto 2rem auto;
 }
 
-.footer {
+footer {
     background-color: var(--cor-verde-principal);
     color: #e0e0e0;
     padding-top: 4rem;
