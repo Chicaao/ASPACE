@@ -407,6 +407,8 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 2.5rem;
     width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .footer-column {
