@@ -723,6 +723,96 @@ footer {
     background-color: var(--cor-verde-principal) !important;
 }
 
+/* --- Estilos para Página Associe-se --- */
+
+.benefits-section {
+    padding: 5rem 2rem;
+    background-color: var(--cor-branca);
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.benefit-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.benefit-icon {
+    font-size: 2.5rem;
+    color: var(--cor-verde-principal);
+    margin-bottom: 1rem;
+}
+
+.benefit-card h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: var(--cor-texto-escuro);
+}
+
+.form-section {
+    padding: 5rem 2rem;
+    background-color: var(--cor-fundo-site);
+}
+
+.contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group.full-width {
+    grid-column: 1 / -1;
+}
+
+.contact-form label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--cor-texto-escuro);
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    border-color: var(--cor-verde-principal);
+    box-shadow: 0 0 0 2px rgba(58, 125, 68, 0.2);
+}
+
+.contact-form button {
+    width: auto;
+    min-width: 200px;
+    margin: 1rem auto 0 auto;
+    cursor: pointer;
+    border: none;
+}
+
 @media (max-width: 768px) {
     /* 1. Esconde o menu de navegação principal */
     .main-nav {
