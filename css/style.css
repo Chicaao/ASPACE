@@ -614,6 +614,114 @@ footer {
     font-weight: 500;
 }
 
+.project-showcase {
+    padding: 5rem 2rem;
+    background-color: var(--cor-branca);
+}
+
+.project-entry {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 5rem;
+}
+
+.project-entry.reverse {
+    flex-direction: row-reverse;
+}
+
+.project-image, .project-text {
+    flex: 1;
+    min-width: 320px;
+}
+
+.project-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.project-text h2 {
+    font-size: 2.5rem;
+    color: var(--cor-texto-escuro);
+    margin-bottom: 1.5rem;
+}
+
+.project-text p {
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.project-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project-text ul li {
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.project-text ul li i {
+    color: var(--cor-verde-secundario);
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+/* --- Estilos para o Carrossel (Swiper.js) --- */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: var(--cor-verde-principal) !important;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 44px !important;
+    height: 44px !important;
+    border-radius: 50%;
+    transform: scale(0.8);
+    transition: transform 0.2s ease;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    transform: scale(0.9);
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 1.5rem !important;
+    font-weight: bold;
+}
+
+.swiper-pagination-bullet {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--cor-verde-principal) !important;
+}
+
 @media (max-width: 768px) {
     /* 1. Esconde o menu de navegação principal */
     .main-nav {

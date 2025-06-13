@@ -6,8 +6,11 @@
     <meta name="description" content="Site da Associação de Produtores Agrícolas e Meliponicultores do Ceará - ASPACE. Conheça nossos projetos e associe-se.">
     <title>ASPACE - Associação de Produtores Agrícolas do Ceará</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
     <script src="js/script.js" defer></script>
+    <script src="js/projetos.js" defer></script>
 </head>
 <body>
     <header>
@@ -19,8 +22,8 @@
             <nav class="main-nav">
                 <ul>
                     <li><a href="index.html"><i class="fa-solid fa-house"></i>Início</a></li>
-                    <li><a href="sobre.html" class="active-link"><i class="fa-solid fa-users"></i>Sobre Nós</a></li>
-                    <li><a href="projetos.html"><i class="fa-solid fa-seedling"></i>Projetos</a></li>
+                    <li><a href="sobre.html"><i class="fa-solid fa-users"></i>Sobre Nós</a></li>
+                    <li><a href="projetos.html" class="active-link"><i class="fa-solid fa-seedling"></i>Projetos</a></li>
                     <li><a href="associe-se.html"><i class="fa-solid fa-handshake-angle"></i>Associe-se</a></li>
                     <li><a href="noticias.html"><i class="fa-solid fa-newspaper"></i>Notícias</a></li>
                     <li><a href="contato.html"><i class="fa-solid fa-envelope"></i>Contato</a></li>
@@ -34,62 +37,49 @@
     <main>
         <section class="page-header">
             <div class="container">
-                <h1>Sobre a Aspace</h1>
-                <p>Conheça nossa jornada, nossos princípios e as pessoas que nos movem.</p>
+                <h1>Nossos Projetos</h1>
+                <p>Iniciativas que transformam o campo e a vida dos nossos produtores.</p>
             </div>
         </section>
 
-        <section class="mission-section">
+        <section class="project-showcase">
             <div class="container">
-                <h2 class="section-title">Nossos Princípios</h2>
-                <div class="mission-grid">
-                    <article class="mission-card">
-                        <div class="mission-icon"><i class="fa-solid fa-bullseye"></i></div>
-                        <h3>Missão</h3>
-                        <p>Fomentar o desenvolvimento sustentável de nossos associados através da cooperação, do acesso à tecnologia e da valorização dos produtos da agricultura familiar e da meliponicultura.</p>
-                    </article>
-                    
-                    <article class="mission-card">
-                        <div class="mission-icon"><i class="fa-solid fa-eye"></i></div>
-                        <h3>Visão</h3>
-                        <p>Ser uma associação de referência no estado do Ceará, reconhecida pela inovação, pelo impacto positivo na vida dos produtores e pela conservação do bioma local.</p>
-                    </article>
-                    
-                    <article class="mission-card">
-                        <div class="mission-icon"><i class="fa-solid fa-handshake-simple"></i></div>
-                        <h3>Valores</h3>
-                        <p>Cooperação, Respeito ao Meio Ambiente, Transparência, Inovação, Justiça Social e Valorização do Saber Tradicional.</p>
-                    </article>    
+                <div class="project-entry">
+                    <div class="project-image">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="" alt=""></div>
+                                <div class="swiper-slide"><img src="" alt=""></div>
+                                <div class="swiper-slide"><img src="" alt=""></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <h2>Agricultura Sustentável</h2>
+                        <p>Desenvolvemos projetos focados em práticas agroecológicas, como sistemas de irrigação eficientes, compostagem e cultivo protegido, visando a segurança alimentar e a geração de renda.</p>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Aumento da diversidade de culturas.</li>
+                            <li><i class="fa-solid fa-check"></i> Redução no uso de agrotóxicos.</li>
+                            <li><i class="fa-solid fa-check"></i> Acesso a novos mercados.</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="team-section">
-            <div class="container">
-                <h2 class="section-title">Conheça Nossa Diretoria</h2>
-                <div class="team-grid">
-                    <div class="profile-card">
-                        <img src="" alt="Foto do presidente">
-                        <h4>Nome do membro</h4>
-                        <span>Presidente</span>
+                
+                <div class="project-entry reverse">
+                    <div class="project-image">
+                        <img src="" alt="">
                     </div>
-
-                    <div class="profile-card">
-                        <img src="" alt="Foto do presidente">
-                        <h4>Nome do membro</h4>
-                        <span>Vice-Presidente</span>
-                    </div>
-
-                    <div class="profile-card">
-                        <img src="" alt="Foto do presidente">
-                        <h4>Nome do membro</h4>
-                        <span>Tesoureiro</span>
-                    </div>
-
-                    <div class="profile-card">
-                        <img src="" alt="Foto do presidente">
-                        <h4>Nome do membro</h4>
-                        <span>Secretário</span>
+                    <div class="project-text">
+                        <h2>Meliponicultura</h2>
+                        <p>Incentivamos a criação racional de abelhas nativas sem ferrão, uma atividade de baixo custo, alto impacto ambiental e que produz um mel de altíssimo valor agregado.</p>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Preservação de espécies como Jandaíra e Uruçu.</li>
+                            <li><i class="fa-solid fa-check"></i> Polinização e enriquecimento da flora local.</li>
+                            <li><i class="fa-solid fa-check"></i> Geração de renda com a venda de mel, própolis e outros produtos.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
