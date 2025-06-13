@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         navigation: {
             nextEl: '.swiper-button-next-agricultura',
-            prevEl: 'swiper-button-prev-agricultura',
+            prevEl: '.swiper-button-prev-agricultura',
         },
     });
 
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         navigation: {
             nextEl: '.swiper-button-next-meliponicultura',
-            prevEl: 'swiper-button-prev-meliponicultura',
+            prevEl: '.swiper-button-prev-meliponicultura',
         },
     });
 });
