@@ -23,7 +23,6 @@ Este projeto tem como objetivo criar uma plataforma digital moderna e informativ
 - [ ] **Sobre Nós:** História, Missão, Visão, Valores e Diretoria.
 - [ ] **Projetos:** Seção detalhada sobre Agricultura e Meliponicultura.
 - [ ] **Associe-se:** Formulário e informações para novos membros.
-- [ ] **Notícias/Blog:** Para manter a comunidade atualizada.
 - [ ] **Contato:** Informações de contato e mapa.
 - [ ] **Galeria de Mídia:** Fotos e vídeos dos projetos e eventos.
 
