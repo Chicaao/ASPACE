@@ -832,46 +832,28 @@ footer {
 /* --- Estilos para Página de Contato --- */
 
 .contact-item {
+    display: flex;
+    align-items: flex-start;
     margin-bottom: 2rem;
 }
 
-.contact-item-title {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.5rem;
-    font-size: 1.1rem;
-}
-
-.contact-item-title i {
-    margin-right: 0.8rem;
+.contact-item i {
     color: var(--cor-verde-principal);
+    font-size: 1.1rem;
+    margin-top: 0.25rem;
+    margin-right: 1rem;
     width: 20px;
 }
 
-.contact-item span {
-    padding-left: 28px;
-    line-height: 1.6;
+.contact-item-text-content strong {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+}
+
+.contact-item-text-content span {
     color: #555;
-}
-
-.contact-info h3, .contact-form-container h3 {
-    font-size: 1.75rem;
-    color: var(--cor-texto-escuro);
-    margin-bottom: 2rem;
-    text-align: center;
-    position: relative;
-    padding-bottom: 0.75rem;
-}
-
-.contact-info h3::after, .contact-form-container h3::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 50px;
-    height: 2px;
-    background-color: var(--cor-verde-secundario);
+    line-height: 1.6;
 }
 
 /* Como já estilizamos a classe .contact-form, não precisamos fazer quase nada! */
