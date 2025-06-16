@@ -831,6 +831,12 @@ footer {
 
 /* --- Estilos para Página de Contato --- */
 
+.contact-page-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
 .contact-item {
     display: flex;
     align-items: flex-start;
