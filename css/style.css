@@ -829,6 +829,57 @@ footer {
     
 }
 
+/* --- Estilos para Página de Contato --- */
+
+.contact-page-section {
+    padding: 5rem 2rem;
+}
+
+.contact-page-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.contact-info h3, .contact-form-container h3 {
+    font-size: 1.75rem;
+    color: var(--cor-texto-escuro);
+    margin-bottom: 2rem;
+}
+
+.contact-info p {
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.contact-info p i {
+    margin-right: 1rem;
+    margin-top: 0.25rem;
+    color: var(--cor-verde-principal);
+    width: 20px;
+}
+
+.map-container {
+    margin-top: 2rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+/* Como já estilizamos a classe .contact-form, não precisamos fazer quase nada! */
+/* Apenas um pequeno ajuste no botão para ele não ficar centralizado */
+.contact-form-container .contact-form button {
+    margin: 0;
+}
+
 @media (max-width: 768px) {
     /* 1. Esconde o menu de navegação principal */
     .main-nav {
@@ -871,6 +922,10 @@ footer {
 
     .mobile-menu-button {
         display: block;
+    }
+
+    .contact-page-grid {
+        grid-column: 1fr;
     }
 
 }

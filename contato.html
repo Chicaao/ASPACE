@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site da Associação de Produtores Agrícolas e Meliponicultores do Ceará - ASPACE. Conheça nossos projetos e associe-se.">
+    <title>ASPACE - Associação de Produtores Agrícolas do Ceará</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/projects.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="./assets/images/logo.jpeg" alt="Logo da ASPACE">
+            </a>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i>Início</a></li>
+                    <li><a href="sobre.html"><i class="fa-solid fa-users"></i>Sobre Nós</a></li>
+                    <li><a href="projetos.html"><i class="fa-solid fa-seedling"></i>Projetos</a></li>
+                    <li><a href="associe-se.html"><i class="fa-solid fa-handshake-angle"></i>Associe-se</a></li>
+                    <li><a href="noticias.html"><i class="fa-solid fa-newspaper"></i>Notícias</a></li>
+                    <li><a href="contato.html" class="active-link"><i class="fa-solid fa-envelope"></i>Contato</a></li>
+                </ul>
+            </nav>
+
+            <button class="mobile-menu-button"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Fale Conosco</h1>
+                <p>Tem dúvidas, sugestões ou quer saber mais sobre nossos projetos? Entre em contato!</p>
+            </div>
+        </section>
+
+        <section class="contact-page-section">
+            <div class="container">
+                <div class="contact-page-grid">
+                        <div class="contact-info">
+                            <h3>Informações de Contato</h3>
+                            <p><strong><i class="fa-solid fa-location-dot"></i> Endereço:</strong><br>Endereço completo da associação, Pereiro, Ceará</p>
+                            <p><strong><i class="fa-solid fa-phone"></i> Telefone:</strong><br>(88) 99999-9999</p>
+                            <p><strong><i class="fa-solid fa-envelope"></i> E-mail:</strong><br>contato@aspace.org.br</p>
+
+                            <div class="map-container">
+                                <iframe src="" frameborder="0"></iframe>
+                            </div>
+                        </div>
+
+
+                    <div class="contact-form-container">
+                        <h3>Envie uma Mensagem</h3>
+                        <form name="contato" class="contact-form" netlify action="">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required placeholder="">
+                                <label for="name">Seu Nome *</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required placeholder="">
+                                <label for="name">Seu E-mail *</label>
+                            </div>
+                            <div class="form-group full-width">
+                                <textarea id="message" name="message" rows="5" required placeholder=""></textarea>
+                                <label for="message">Sua Mensagem *</label>
+                            </div>
+                            <div class="form-group full-width form-group-button">
+                                <button type="submit" class="cta-button">Enviar Mensagem</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="./assets/images/logo.jpeg" alt="Logo da ASPACE" class="footer-logo">
+                    <p>Fortalecendo produtores e promovendo práticas sustentáveis no semiárido cearense.</p>
+                </div>
+                <div class="footer-grid">
+                    <div class="footer-column links">
+                        <h4>Navegação</h4>
+                        <ul>
+                            <li><a href="index.html">Início</a></li>
+                            <li><a href="sobre.html">Sobre Nós</a></li>
+                            <li><a href="projetos.html">Projetos</a></li>
+                            <li><a href="associe-se.html">Associe-se</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer-column contact">
+                        <h4>Contato</h4>
+                        <p><i class="fa-solid fa-location-dot"></i>Endereço da Associação, Ceará, CE</p>
+                        <p><i class="fa-solid fa-envelope"></i>aspace@aspace.com.br</p>
+                        <p><i class="fa-solid fa-phone"></i>(88) 99999-9999</p>
+                    </div>
+    
+                    <div class="footer-column social">
+                        <h4>Redes Sociais</h4>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 ASPACE. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
